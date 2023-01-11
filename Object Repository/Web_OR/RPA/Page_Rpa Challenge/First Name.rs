@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>First Name</name>
+   <tag></tag>
+   <elementGuidId>5c1e2e5b-04bf-4b59-b3b8-2fbe8f0a443a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>//div[5]/rpa1-field/div/input</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id = 'Daurt' and @name = 'Daurt']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ng-reflect-name = 'labelFirstName']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>6ead0cce-1329-4d6b-86e6-dd69192138c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>labelFirstName</value>
+      <webElementGuid>0e647b3e-f533-4474-a9c4-147b4e5cf97d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>Daurt</value>
+      <webElementGuid>3008d623-0318-4999-8392-218dc52e1b44</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>Daurt</value>
+      <webElementGuid>7ca91fce-abe6-4fca-b58a-608e35d37c1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>17ab82cc-cf3c-466a-932c-77074a9776cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Daurt&quot;)</value>
+      <webElementGuid>566ed31d-045d-48a3-a4e0-93f642ce920d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='Daurt']</value>
+      <webElementGuid>8c44bce4-01ee-41c2-8e14-1040652940cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/rpa1-field/div/input</value>
+      <webElementGuid>90c79f15-1cdb-4568-8643-8cb2f64d4348</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'Daurt' and @name = 'Daurt']</value>
+      <webElementGuid>599f1a2f-6e77-4a60-80c2-8cabe804e970</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: OrderTC02-EditRecordPositive
+Description: Test Steps:
+1. startApplicationWithTitle(OrderApplicationLocation, &quot;Orders - Untitled&quot;)
+2. click(findWindowsObject(&quot;Object Repository/Order Application/New Order Button&quot;))
+3. applicationKeyword.DesktopKeyword.addRecord(Customer, Street, City, State, zip, CardNo, ExpDate)
+4. applicationKeyword.DesktopKeyword.editRecord(Edit_Customer)
+5. click(findWindowsObject(&quot;Order Application/Delete Button&quot;))
+6. click(findWindowsObject(&quot;Order Application/Confirmation page&quot;))
+7. click(findWindowsObject(&quot;Order Application/Yes Button&quot;))
+8. click(findWindowsObject(&quot;Order Application/Close application Button&quot;))
+9. click(findWindowsObject(&quot;Order Application/No Button&quot;))
+10. closeBrowser()
+11. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>OrderTC02-EditRecordPositive</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001b:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;OrderTC02-EditRecordPositive&quot;,&quot;description&quot;:&quot;Test Steps:\n1. startApplicationWithTitle(OrderApplicationLocation, \&quot;Orders - Untitled\&quot;)\n2. click(findWindowsObject(\&quot;Object Repository/Order Application/New Order Button\&quot;))\n3. applicationKeyword.DesktopKeyword.addRecord(Customer, Street, City, State, zip, CardNo, ExpDate)\n4. applicationKeyword.DesktopKeyword.editRecord(Edit_Customer)\n5. click(findWindowsObject(\&quot;Order Application/Delete Button\&quot;))\n6. click(findWindowsObject(\&quot;Order Application/Confirmation page\&quot;))\n7. click(findWindowsObject(\&quot;Order Application/Yes Button\&quot;))\n8. click(findWindowsObject(\&quot;Order Application/Close application Button\&quot;))\n9. click(findWindowsObject(\&quot;Order Application/No Button\&quot;))\n10. closeBrowser()\n11. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-145/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10144&quot;,&quot;key&quot;:&quot;KAT-145&quot;,&quot;id&quot;:10144}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>13</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>d8f62cb1-878b-4575-b65c-f0552b116fbf</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d63a8ec2-17f5-4341-a282-94c9731571fd</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/Order_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>TestData_Identifier</value>
+      <variableId>45eefcca-3783-4fdf-b4f3-75b58807d9cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Customer</value>
+      <variableId>9b3bc124-d033-4e7e-94b3-b194dcf4d180</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Street</value>
+      <variableId>8c5a33a4-ed48-45c7-b164-800f0130cd87</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>City</value>
+      <variableId>8318c808-ef88-407c-81d5-ada8a0f4c9cd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>State</value>
+      <variableId>e7ebe80f-41de-4aea-8950-05435b35c265</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Zip</value>
+      <variableId>bd48398c-626b-4b83-b041-d924f2cab527</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>CardNo</value>
+      <variableId>0c96b2c7-07e1-4393-aa98-b7189803dc45</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ExpDate</value>
+      <variableId>b08e3ec9-4f21-4b0d-9ee9-de05b81b6051</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Edit_Customer</value>
+      <variableId>37a674d9-9619-4775-85c8-b3be90edf2e9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d63a8ec2-17f5-4341-a282-94c9731571fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>OrderStatus</value>
+      <variableId>b99ced3e-8f68-40d8-ae3d-a6ea6e933e17</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45eefcca-3783-4fdf-b4f3-75b58807d9cd</id>
+      <masked>false</masked>
+      <name>TestData_Identifier</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9b3bc124-d033-4e7e-94b3-b194dcf4d180</id>
+      <masked>false</masked>
+      <name>Customer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8c5a33a4-ed48-45c7-b164-800f0130cd87</id>
+      <masked>false</masked>
+      <name>Street</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8318c808-ef88-407c-81d5-ada8a0f4c9cd</id>
+      <masked>false</masked>
+      <name>City</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e7ebe80f-41de-4aea-8950-05435b35c265</id>
+      <masked>false</masked>
+      <name>State</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>bd48398c-626b-4b83-b041-d924f2cab527</id>
+      <masked>false</masked>
+      <name>zip</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>0c96b2c7-07e1-4393-aa98-b7189803dc45</id>
+      <masked>false</masked>
+      <name>CardNo</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b08e3ec9-4f21-4b0d-9ee9-de05b81b6051</id>
+      <masked>false</masked>
+      <name>ExpDate</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>37a674d9-9619-4775-85c8-b3be90edf2e9</id>
+      <masked>false</masked>
+      <name>Edit_Customer</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b99ced3e-8f68-40d8-ae3d-a6ea6e933e17</id>
+      <masked>false</masked>
+      <name>OrderStatus</name>
+   </variable>
+</TestCaseEntity>

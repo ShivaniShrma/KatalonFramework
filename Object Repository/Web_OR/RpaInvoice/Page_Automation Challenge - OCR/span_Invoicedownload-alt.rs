@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Invoicedownload-alt</name>
+   <tag></tag>
+   <elementGuidId>55c08ef7-2db1-4f2f-9408-999b4007cf7c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='tableSandbox']/tbody/tr/td[4]/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1ef4f3ab-fc8a-416b-921e-ded552166880</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>glyphicon glyphicon-download-alt</value>
+      <webElementGuid>97bc33d2-550c-4165-9c52-9c4d8acefe32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tableSandbox&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]/a[1]/span[@class=&quot;glyphicon glyphicon-download-alt&quot;]</value>
+      <webElementGuid>81501057-debf-4c7d-a52f-65565f439ae7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='tableSandbox']/tbody/tr/td[4]/a/span</value>
+      <webElementGuid>dd7a6abc-7456-45a6-8570-d0656ed2849d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[4]/a/span</value>
+      <webElementGuid>5f4d72fd-706b-4cdc-bd35-edab66a59d63</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Phone Number</name>
+   <tag></tag>
+   <elementGuidId>63a45db3-0879-4c23-a136-b4754de30ff2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>sTQy3</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'sTQy3']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@ng-reflect-name = 'labelPhone']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>20131e60-064f-49a9-b36b-8d87d9040c09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>labelPhone</value>
+      <webElementGuid>a69348ad-836d-4933-a000-4a19642f22e2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>kXKJv</value>
+      <webElementGuid>ed4b42bc-3bdb-43ca-bf90-cc9b79d2d290</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>kXKJv</value>
+      <webElementGuid>70eef551-1140-4b01-8700-1e1a7a96d3d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-untouched ng-pristine ng-invalid</value>
+      <webElementGuid>477ed725-222c-486d-bc75-51cb5536962c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;kXKJv&quot;)</value>
+      <webElementGuid>d8b37bfb-d866-49e2-80e2-ade79e50998d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@id='kXKJv']</value>
+      <webElementGuid>02c35f8e-76ee-444e-88bf-7b1abe338d9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/rpa1-field/div/input</value>
+      <webElementGuid>9c596c2b-8c8f-439c-adaf-b66942229451</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'kXKJv' and @name = 'kXKJv']</value>
+      <webElementGuid>d944780d-2e34-40c8-8177-89419df8983e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

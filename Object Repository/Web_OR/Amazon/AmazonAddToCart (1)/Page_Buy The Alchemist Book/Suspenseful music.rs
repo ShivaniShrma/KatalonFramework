@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Suspenseful music</name>
+   <tag></tag>
+   <elementGuidId>699dd523-c903-4e59-b6b8-7c8a0c6b85f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='aod-close']/span/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.a-icon.a-icon-close.a-icon-medium.aod-close-button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b7db1a58-3b7a-43fd-9656-61de97038265</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-icon a-icon-close a-icon-medium aod-close-button</value>
+      <webElementGuid>6297ba7b-282f-411b-83a2-8cb5900f6941</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>217729cc-854b-4cb6-8b7f-bcd28f78a502</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>aod-close</value>
+      <webElementGuid>095d734e-a19d-4d1a-a2ca-0ee80a261c6c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;aod-close&quot;)/span[@class=&quot;a-declarative&quot;]/span[1]/i[@class=&quot;a-icon a-icon-close a-icon-medium aod-close-button&quot;]</value>
+      <webElementGuid>388993e7-4db3-4701-911c-a26ead2b27f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='aod-close']/span/span/i</value>
+      <webElementGuid>acc9c280-d1ce-431d-948e-d9f2441e6213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>29af2105-1d98-45d1-be9c-32429e385d2e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,94 @@
+{
+  "keywordFileContentHash": "3FBC84A1AF025F16CE0A190D7D3C42E0",
+  "keywordClasses": [
+    {
+      "name": "textExtraction.ExtractingKeywords",
+      "keywordMethods": [
+        {
+          "name": "readImageText",
+          "parameters": [
+            {
+              "name": "imPath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "resized",
+          "parameters": [
+            {
+              "name": "bufImage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.awt.image.BufferedImage",
+                "unresolvedClassName": "BufferedImage",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "x",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "y",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "convert",
+          "parameters": [
+            {
+              "name": "bufImage",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.awt.image.BufferedImage",
+                "unresolvedClassName": "BufferedImage",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

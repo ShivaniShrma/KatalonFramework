@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "D0FD65CC68D4BDA40562CE73ABB7761C",
+  "keywordClasses": [
+    {
+      "name": "customKeywords.ClickElement",
+      "keywordMethods": [
+        {
+          "name": "clickElement",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

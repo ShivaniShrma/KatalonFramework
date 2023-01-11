@@ -1,0 +1,48 @@
+{"GlobalVariableEntities": {
+    "name": "default",
+    "description": "",
+    "defaultProfile": true,
+    "tag": "",
+    "GlobalVariableEntity": [
+        {
+            "name": "AmazonUrl",
+            "description": "",
+            "initValue": "'https://www.amazon.in/'"
+        },
+        {
+            "name": "OrderApplicationLocation",
+            "description": "",
+            "initValue": "String path = RunConfiguration.getProjectDir() + \"/Applications/Orders.exe\""
+        },
+        {
+            "name": "EriBankAndroidLocation",
+            "description": "",
+            "initValue": "String path = RunConfiguration.getProjectDir() + \"/Applications/eribank.apk\""
+        },
+        {
+            "name": "OrangeHrmUrl",
+            "description": "",
+            "initValue": "'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'"
+        },
+        {
+            "name": "RpaChallengeExcelLcation",
+            "description": "",
+            "initValue": "String excelFile = RunConfiguration.getProjectDir() + \"/Data Files/Testdata/RPAChallenge.xlsx\""
+        },
+        {
+            "name": "RpaChallengeUrl",
+            "description": "",
+            "initValue": "'https://rpachallenge.com/'"
+        },
+        {
+            "name": "AdactinUrl",
+            "description": "",
+            "initValue": "'http://adactinhotelapp.com/index.php'"
+        },
+        {
+            "name": "xmlToJsonConv",
+            "description": "",
+            "initValue": "String path = RunConfiguration.getProjectDir() + \"/Profiles/default.glbl\""
+        }
+    ]
+}}

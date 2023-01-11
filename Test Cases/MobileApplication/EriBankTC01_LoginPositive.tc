@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: EriBankTC01_LoginPositive
+Description: Test Steps:
+1. startApplication(EriBankAndroidLocation, true)
+2. applicationKeyword.MobileKeyword.login(Username, Password, findTestObject(&quot;EriBank/EriBank Application/UsernameTextBox&quot;), findTestObject(&quot;EriBank/EriBank Application/PasswordTextBox&quot;), findTestObject(&quot;EriBank/EriBank Application/LoginButton&quot;))
+3. applicationKeyword.MobileKeyword.logout(findTestObject(&quot;EriBank/EriBank Application/LogoutButton&quot;))
+4. closeApplication()
+5. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>EriBankTC01_LoginPositive</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001r:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;EriBankTC01_LoginPositive&quot;,&quot;description&quot;:&quot;Test Steps:\n1. startApplication(EriBankAndroidLocation, true)\n2. applicationKeyword.MobileKeyword.login(Username, Password, findTestObject(\&quot;EriBank/EriBank Application/UsernameTextBox\&quot;), findTestObject(\&quot;EriBank/EriBank Application/PasswordTextBox\&quot;), findTestObject(\&quot;EriBank/EriBank Application/LoginButton\&quot;))\n3. applicationKeyword.MobileKeyword.logout(findTestObject(\&quot;EriBank/EriBank Application/LogoutButton\&quot;))\n4. closeApplication()\n5. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-147/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10146&quot;,&quot;key&quot;:&quot;KAT-147&quot;,&quot;id&quot;:10146}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>15</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>1a277a4a-828a-47e2-9a7f-84d314744258</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8035f493-59d4-4327-9e86-b6d245d978c1</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/EriBank_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>8035f493-59d4-4327-9e86-b6d245d978c1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>1f0719d3-4db4-4cb2-9031-06bf18e6f1b5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8035f493-59d4-4327-9e86-b6d245d978c1</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>b60bc649-dc29-410f-bd9a-431c5713c9b1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1f0719d3-4db4-4cb2-9031-06bf18e6f1b5</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b60bc649-dc29-410f-bd9a-431c5713c9b1</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

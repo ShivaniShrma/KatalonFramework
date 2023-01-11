@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Spy_Select Room Type</name>
+   <tag></tag>
+   <elementGuidId>6cb497d9-cffb-43dc-bc78-e24bd52153cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='room_type']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#room_type</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f21d2cfd-bdb0-46e0-85c2-e796aa9eb288</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>room_type</value>
+      <webElementGuid>c50dadb5-e1c5-4d74-bf85-624584243791</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>room_type</value>
+      <webElementGuid>30e9ad63-a40d-496a-915c-6ea8ad28cdde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>search_combobox</value>
+      <webElementGuid>52907d3c-950f-44d9-b5c3-4b83387a1885</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            - Select Room Type -
+            Standard
+            Double
+            Deluxe
+            Super Deluxe
+          </value>
+      <webElementGuid>e945c407-45e6-4788-8cc6-edcc027c8a22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;room_type&quot;)</value>
+      <webElementGuid>466bc03f-0232-4124-b0d9-e54dcad742c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='room_type']</value>
+      <webElementGuid>e03e568a-c330-4540-a0e8-ee97e1e35c84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='search_form']/table/tbody/tr[4]/td[2]/select</value>
+      <webElementGuid>0b17a952-62ab-4f3f-88ca-609f71f4aa31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::select[1]</value>
+      <webElementGuid>6e944b48-8c93-46d1-ac6a-c6c68a944263</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[2]/select</value>
+      <webElementGuid>43984876-a26a-47b4-9b5f-5ddc395fd9f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'room_type' and @id = 'room_type' and (text() = '
+            - Select Room Type -
+            Standard
+            Double
+            Deluxe
+            Super Deluxe
+          ' or . = '
+            - Select Room Type -
+            Standard
+            Double
+            Deluxe
+            Super Deluxe
+          ')]</value>
+      <webElementGuid>d1b5bc99-42af-4d59-b714-d760e6608dfc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

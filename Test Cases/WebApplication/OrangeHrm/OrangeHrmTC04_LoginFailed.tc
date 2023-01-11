@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: OrangeHrmTC04_LoginFailed
+Description: </description>
+   <name>OrangeHrmTC04_LoginFailed</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0004v:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;OrangeHrmTC04_LoginFailed&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-171/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10170&quot;,&quot;key&quot;:&quot;KAT-171&quot;,&quot;id&quot;:10170}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>34</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>44d237e8-426e-48e0-8ffc-e050b5f56804</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5e53d16a-ff05-44eb-b81d-0cedab058bca</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>2-2</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/OrangeHrm_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5e53d16a-ff05-44eb-b81d-0cedab058bca</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>433d23d1-8e0a-459d-b337-317e61c4ed21</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5e53d16a-ff05-44eb-b81d-0cedab058bca</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>7979e999-be4d-4435-804a-9a9de266c4a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>433d23d1-8e0a-459d-b337-317e61c4ed21</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7979e999-be4d-4435-804a-9a9de266c4a0</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

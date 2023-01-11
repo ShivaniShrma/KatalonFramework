@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Spy_Click_Select_Hotel</name>
+   <tag></tag>
+   <elementGuidId>2b09a67b-430d-470d-b58a-5aabeb6caa1c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='select_form']/table/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.login_title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>2665cb3a-364a-4122-afed-faf9d4808af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>login_title</value>
+      <webElementGuid>50ba1bfe-a117-4af1-a2bc-3f629846156e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Select Hotel </value>
+      <webElementGuid>c9c8c5ca-b5e4-44ef-970f-043963a5ea02</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;select_form&quot;)/table[@class=&quot;login&quot;]/tbody[1]/tr[1]/td[@class=&quot;login_title&quot;]</value>
+      <webElementGuid>ad20ef24-1ba9-41e5-8be3-98633b6f62f8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='select_form']/table/tbody/tr/td</value>
+      <webElementGuid>e33fc196-4d09-4168-b7cc-14d99f8435f8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='www.adactin.com'])[1]/following::td[2]</value>
+      <webElementGuid>3591aa78-394c-4fd5-98e9-94c1587e7082</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='About Adactin'])[1]/following::td[2]</value>
+      <webElementGuid>ce0e2fc7-71be-4101-a8dd-79e8e71b7d14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Select'])[1]/preceding::td[1]</value>
+      <webElementGuid>2f7c9e62-a02b-4b33-b97f-d0ff5120f206</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Hotel Name'])[1]/preceding::td[2]</value>
+      <webElementGuid>1415c9ae-6c19-4b88-bfab-eeca619eee7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Select Hotel']/parent::*</value>
+      <webElementGuid>ecf1fcaf-de62-4582-9a33-807b8bf56705</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/table/tbody/tr/td</value>
+      <webElementGuid>04bf66d2-1712-4dfb-9b3f-9c011f7eb49f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Select Hotel ' or . = 'Select Hotel ')]</value>
+      <webElementGuid>ac69092d-1aa5-432a-85ee-7e00ccb402f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

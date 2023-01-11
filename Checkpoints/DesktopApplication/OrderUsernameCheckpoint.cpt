@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>OrderUsernameCheckpoint</name>
+   <tag></tag>
+   <excel-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\TX\Katalon Studio\katalonframework-Shivani\Data Files\Testdata\OrderTestData.xlsx</source-url>
+      <source-type>ExcelFile</source-type>
+      <sheet-name-or-separator>DesktopApp</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </excel-source-info>
+   <taken-date>2022-11-14T15:51:54.323</taken-date>
+   <column-names>
+      <column-name>TestData_Identifier</column-name>
+      <column-name>Customer</column-name>
+      <column-name>Street</column-name>
+      <column-name>City</column-name>
+      <column-name>State</column-name>
+      <column-name>Zip</column-name>
+      <column-name>CardNo</column-name>
+      <column-name>ExpDate</column-name>
+      <column-name>Edit_Customer</column-name>
+      <column-name>OrderStatus</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "TD_001",
+      "checked": true
+    },
+    {
+      "value": "Kenyon Stuart",
+      "checked": true
+    },
+    {
+      "value": "73668 East Daniels Way",
+      "checked": true
+    },
+    {
+      "value": "Thousand Oaks",
+      "checked": false
+    },
+    {
+      "value": "NE",
+      "checked": false
+    },
+    {
+      "value": "6842",
+      "checked": false
+    },
+    {
+      "value": "1330019087",
+      "checked": false
+    },
+    {
+      "value": "01/01/2023",
+      "checked": false
+    },
+    {
+      "value": "Kristen",
+      "checked": false
+    },
+    {
+      "value": "True",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

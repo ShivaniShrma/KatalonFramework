@@ -1,0 +1,92 @@
+1
+00:00:00,988 --> 00:00:02,945
+1. openBrowser("")
+
+2
+00:00:02,961 --> 00:00:02,998
+5. commonKeywords.RefreshBrowser.refreshBrowser()
+
+3
+00:00:02,999 --> 00:00:12,739
+9. navigateToUrl(AdactinUrl)
+
+4
+00:00:12,740 --> 00:00:20,199
+13. applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton"))
+
+5
+00:00:20,201 --> 00:00:21,545
+17. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location"), Location, true)
+
+6
+00:00:21,545 --> 00:00:22,832
+21. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel"), HotelName, true)
+
+7
+00:00:22,833 --> 00:00:24,019
+25. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type"), RoomType, true)
+
+8
+00:00:24,020 --> 00:00:24,838
+29. setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in"), CheckInDate)
+
+9
+00:00:24,840 --> 00:00:25,842
+33. setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out"), CheckOutDate)
+
+10
+00:00:25,843 --> 00:00:27,495
+37. click(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit"))
+
+11
+00:00:27,497 --> 00:00:27,563
+41. verifyMatch(Location, "Sydney", false)
+
+12
+00:00:27,564 --> 00:00:28,580
+45. applicationKeyword.WebKeywords.logout(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout"))
+
+13
+00:00:28,581 --> 00:00:29,594
+49. closeBrowser()
+
+14
+00:00:29,596 --> 00:00:29,598
+1. println(testCaseContext.getTestCaseId())
+
+15
+00:00:29,598 --> 00:00:29,599
+5. Status = testCaseContext.getTestCaseStatus()
+
+16
+00:00:29,599 --> 00:00:29,599
+9. desc = getExecutionSourceDescription()
+
+17
+00:00:29,599 --> 00:00:29,599
+13. name = getExecutionSourceName()
+
+18
+00:00:29,599 --> 00:00:29,599
+17. name1 = getName()
+
+19
+00:00:29,599 --> 00:00:29,599
+21. println(getLogFolderPath())
+
+20
+00:00:29,599 --> 00:00:29,599
+25. println(testCaseContext.getTestCaseVariables())
+
+21
+00:00:29,599 --> 00:00:29,599
+29. println(Status)
+
+22
+00:00:29,599 --> 00:00:29,599
+33. a = "FAILED"
+
+23
+00:00:29,599 --> 00:00:29,615
+37. if (Status == a)
+

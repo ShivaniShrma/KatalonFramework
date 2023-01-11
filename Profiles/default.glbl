@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.amazon.in/'</initValue>
+      <name>AmazonUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>String path = RunConfiguration.getProjectDir() + &quot;/Applications/Orders.exe&quot;</initValue>
+      <name>OrderApplicationLocation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>String path = RunConfiguration.getProjectDir() + &quot;/Applications/eribank.apk&quot;</initValue>
+      <name>EriBankAndroidLocation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://opensource-demo.orangehrmlive.com/web/index.php/auth/login'</initValue>
+      <name>OrangeHrmUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>String excelFile = RunConfiguration.getProjectDir() + &quot;/Data Files/Testdata/RPAChallenge.xlsx&quot;</initValue>
+      <name>RpaChallengeExcelLcation</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://rpachallenge.com/'</initValue>
+      <name>RpaChallengeUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://adactinhotelapp.com/index.php'</initValue>
+      <name>AdactinUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>String path = RunConfiguration.getProjectDir() + &quot;/Profiles/default.glbl&quot;</initValue>
+      <name>xmlToJsonConv</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

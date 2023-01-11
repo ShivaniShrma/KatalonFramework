@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: EriBankTC02_MakePaymentPositive
+Description: Test Steps:
+1. startApplication(EriBankAndroidLocation, true)
+2. applicationKeyword.MobileKeyword.login(Username, Password, findTestObject(&quot;EriBank/EriBank Application/UsernameTextBox&quot;), findTestObject(&quot;EriBank/EriBank Application/PasswordTextBox&quot;), findTestObject(&quot;EriBank/EriBank Application/LoginButton&quot;))
+3. tap(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/Make PaymentTextBox&quot;), 0)
+4. setText(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/PhoneTextBox&quot;), Phone, 0)
+5. setText(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/NameTextBox&quot;), Name, 0)
+6. setText(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/AmountTextBox&quot;), Amount, 0)
+7. tap(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/SelectButton&quot;), 0)
+8. tap(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/TextView - India&quot;), 0)
+9. tap(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/Send PaymentButton&quot;), 0)
+10. tap(findTestObject(&quot;Object Repository/EriBank/ERIBank MakePayment/YesButton&quot;), 0)
+11. applicationKeyword.MobileKeyword.logout(findTestObject(&quot;EriBank/EriBank Application/LogoutButton&quot;))
+12. closeApplication()
+13. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>EriBankTC02_MakePaymentPositive</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0001z:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;EriBankTC02_MakePaymentPositive&quot;,&quot;description&quot;:&quot;Test Steps:\n1. startApplication(EriBankAndroidLocation, true)\n2. applicationKeyword.MobileKeyword.login(Username, Password, findTestObject(\&quot;EriBank/EriBank Application/UsernameTextBox\&quot;), findTestObject(\&quot;EriBank/EriBank Application/PasswordTextBox\&quot;), findTestObject(\&quot;EriBank/EriBank Application/LoginButton\&quot;))\n3. tap(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/Make PaymentTextBox\&quot;), 0)\n4. setText(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/PhoneTextBox\&quot;), Phone, 0)\n5. setText(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/NameTextBox\&quot;), Name, 0)\n6. setText(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/AmountTextBox\&quot;), Amount, 0)\n7. tap(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/SelectButton\&quot;), 0)\n8. tap(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/TextView - India\&quot;), 0)\n9. tap(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/Send PaymentButton\&quot;), 0)\n10. tap(findTestObject(\&quot;Object Repository/EriBank/ERIBank MakePayment/YesButton\&quot;), 0)\n11. applicationKeyword.MobileKeyword.logout(findTestObject(\&quot;EriBank/EriBank Application/LogoutButton\&quot;))\n12. closeApplication()\n13. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-148/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10147&quot;,&quot;key&quot;:&quot;KAT-148&quot;,&quot;id&quot;:10147}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>17</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>f3ee863e-a5cd-4f3b-8864-fc5e5cbf6216</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d46d8478-ff18-432a-9326-fb453a2cd2eb</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/EriBank_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d46d8478-ff18-432a-9326-fb453a2cd2eb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>ec9f62bc-7a54-499f-81ea-2dfd44bca06b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d46d8478-ff18-432a-9326-fb453a2cd2eb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>f459c0aa-9acd-49a6-8024-77695c923bbd</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d46d8478-ff18-432a-9326-fb453a2cd2eb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Phone</value>
+      <variableId>aa3978cf-d93e-4872-b2d9-205fede5bcd2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d46d8478-ff18-432a-9326-fb453a2cd2eb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>80cf1185-73c8-435f-a06a-09e7e7d8e5d8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d46d8478-ff18-432a-9326-fb453a2cd2eb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Amount</value>
+      <variableId>1fe7949c-6170-4ff5-b1b3-15f5f08c6c04</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>ec9f62bc-7a54-499f-81ea-2dfd44bca06b</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f459c0aa-9acd-49a6-8024-77695c923bbd</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>aa3978cf-d93e-4872-b2d9-205fede5bcd2</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80cf1185-73c8-435f-a06a-09e7e7d8e5d8</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1fe7949c-6170-4ff5-b1b3-15f5f08c6c04</id>
+      <masked>false</masked>
+      <name>Amount</name>
+   </variable>
+</TestCaseEntity>

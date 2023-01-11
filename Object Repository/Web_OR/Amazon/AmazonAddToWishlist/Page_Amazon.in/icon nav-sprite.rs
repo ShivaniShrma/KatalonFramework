@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon nav-sprite</name>
+   <tag></tag>
+   <elementGuidId>073e39d6-2189-4819-938c-76e1d84b9814</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='nav-hamburger-menu']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.hm-icon.nav-sprite</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>cd3c6d8c-b6c9-46af-86dd-45428536eda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hm-icon nav-sprite</value>
+      <webElementGuid>736580f0-1490-4afb-837a-52d0e72825be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-hamburger-menu&quot;)/i[@class=&quot;hm-icon nav-sprite&quot;]</value>
+      <webElementGuid>8c453c2d-703b-404c-8ec6-00a3133eba49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='nav-hamburger-menu']/i</value>
+      <webElementGuid>38b6739d-c7c5-49d8-9b5b-18c19e66a6db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/i</value>
+      <webElementGuid>f47a3c8d-fd70-4a24-9138-538353c59d6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

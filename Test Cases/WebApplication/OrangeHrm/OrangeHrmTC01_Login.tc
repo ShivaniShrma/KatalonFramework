@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: OrangeHrmTC01_Login
+Description: </description>
+   <name>OrangeHrmTC01_Login</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00047:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;OrangeHrmTC01_Login&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-168/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10167&quot;,&quot;key&quot;:&quot;KAT-168&quot;,&quot;id&quot;:10167}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>30</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>6d1d7f83-1932-4c53-9737-b28f6dd55323</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a0ac6556-fd84-4b75-8592-69919d5a1a37</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/OrangeHrm_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a0ac6556-fd84-4b75-8592-69919d5a1a37</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>76e693b7-f428-4f8b-8438-542444732415</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a0ac6556-fd84-4b75-8592-69919d5a1a37</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>2f5983c6-d4aa-4e7f-a804-a59869373372</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>76e693b7-f428-4f8b-8438-542444732415</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>2f5983c6-d4aa-4e7f-a804-a59869373372</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

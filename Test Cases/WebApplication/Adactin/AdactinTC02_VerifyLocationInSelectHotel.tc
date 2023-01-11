@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: AdactinTC02_VerifyLocationInSelectHotel
+Description: Test Steps:
+1. openBrowser(&quot;&quot;)
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername&quot;), findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword&quot;), findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton&quot;))
+4. selectOptionByValue(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location&quot;), Location, true)
+5. selectOptionByValue(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel&quot;), HotelName, true)
+6. selectOptionByValue(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type&quot;), RoomType, true)
+7. setText(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in&quot;), CheckInDate)
+8. setText(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out&quot;), CheckOutDate)
+9. click(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit&quot;))
+10. verifyMatch(Location, &quot;Sydney&quot;, false)
+11. applicationKeyword.WebKeywords.logout(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout&quot;))
+12. closeBrowser()
+13. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>AdactinTC02_VerifyLocationInSelectHotel</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0002n:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;AdactinTC02_VerifyLocationInSelectHotel&quot;,&quot;description&quot;:&quot;Test Steps:\n1. openBrowser(\&quot;\&quot;)\n2. navigateToUrl(AdactinUrl)\n3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername\&quot;), findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword\&quot;), findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton\&quot;))\n4. selectOptionByValue(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location\&quot;), Location, true)\n5. selectOptionByValue(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel\&quot;), HotelName, true)\n6. selectOptionByValue(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type\&quot;), RoomType, true)\n7. setText(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in\&quot;), CheckInDate)\n8. setText(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out\&quot;), CheckOutDate)\n9. click(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit\&quot;))\n10. verifyMatch(Location, \&quot;Sydney\&quot;, false)\n11. applicationKeyword.WebKeywords.logout(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout\&quot;))\n12. closeBrowser()\n13. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-151/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10150&quot;,&quot;key&quot;:&quot;KAT-151&quot;,&quot;id&quot;:10150}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>41</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>b2e1fa80-8950-4d74-ad0e-3c173665dd62</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/Adactin_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>c5db5f55-5eb9-458e-9484-858b555dd13a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>a5345248-5d69-472c-9aa2-c5b6d13bf781</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Location</value>
+      <variableId>04c10855-4e86-435f-8a48-3b6b3565906f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>HotelName</value>
+      <variableId>b1cbec29-b7e3-4752-a233-85221c492931</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d1e1c4c2-5f77-4a40-a54e-2449b4a18259</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>RoomType</value>
+      <variableId>e10fa39a-d2f3-4544-a082-2fce20aad70e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c5db5f55-5eb9-458e-9484-858b555dd13a</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a5345248-5d69-472c-9aa2-c5b6d13bf781</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>04c10855-4e86-435f-8a48-3b6b3565906f</id>
+      <masked>false</masked>
+      <name>Location</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b1cbec29-b7e3-4752-a233-85221c492931</id>
+      <masked>false</masked>
+      <name>HotelName</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e10fa39a-d2f3-4544-a082-2fce20aad70e</id>
+      <masked>false</masked>
+      <name>RoomType</name>
+   </variable>
+</TestCaseEntity>

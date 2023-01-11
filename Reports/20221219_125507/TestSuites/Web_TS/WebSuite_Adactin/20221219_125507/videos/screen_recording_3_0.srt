@@ -1,0 +1,104 @@
+1
+00:00:01,277 --> 00:00:03,391
+1. openBrowser("")
+
+2
+00:00:03,391 --> 00:00:03,494
+5. commonKeywords.RefreshBrowser.refreshBrowser()
+
+3
+00:00:03,495 --> 00:00:18,704
+9. navigateToUrl(AdactinUrl)
+
+4
+00:00:18,705 --> 00:00:24,849
+13. applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton"))
+
+5
+00:00:24,851 --> 00:00:26,363
+17. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location"), Location, true)
+
+6
+00:00:26,364 --> 00:00:27,735
+21. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel"), HotelName, true)
+
+7
+00:00:27,735 --> 00:00:28,907
+25. selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type"), RoomType, true)
+
+8
+00:00:28,908 --> 00:00:29,878
+29. setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in"), CheckInDate)
+
+9
+00:00:29,879 --> 00:00:30,801
+33. setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out"), CheckOutDate)
+
+10
+00:00:30,802 --> 00:00:32,475
+37. click(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit"))
+
+11
+00:00:32,476 --> 00:00:32,539
+41. verifyMatch(CheckInDate, "05/12/2022", false)
+
+12
+00:00:32,539 --> 00:00:32,539
+1. println(testCaseContext.getTestCaseId())
+
+13
+00:00:32,539 --> 00:00:32,539
+5. Status = testCaseContext.getTestCaseStatus()
+
+14
+00:00:32,539 --> 00:00:32,539
+9. desc = getExecutionSourceDescription()
+
+15
+00:00:32,539 --> 00:00:32,539
+13. name = getExecutionSourceName()
+
+16
+00:00:32,539 --> 00:00:32,539
+17. name1 = getName()
+
+17
+00:00:32,539 --> 00:00:32,539
+21. println(getLogFolderPath())
+
+18
+00:00:32,539 --> 00:00:32,539
+25. println(testCaseContext.getTestCaseVariables())
+
+19
+00:00:32,539 --> 00:00:32,539
+29. println(Status)
+
+20
+00:00:32,539 --> 00:00:32,539
+33. a = "FAILED"
+
+21
+00:00:32,539 --> 00:00:32,539
+37. if (Status == a)
+
+22
+00:00:32,539 --> 00:00:32,539
+1. println("Failed")
+
+23
+00:00:32,563 --> 00:00:32,593
+5. creds = new net.rcarz.jiraclient.BasicCredentials(nofoxo7854@lidely.com, fXtOhjozaeL0AY53JUEB10B9)
+
+24
+00:00:32,593 --> 00:00:34,675
+9. jira = new net.rcarz.jiraclient.JiraClient(https://nofoxo.atlassian.net/, creds)
+
+25
+00:00:34,676 --> 00:00:38,931
+13. issueName = toString()).execute()
+
+26
+00:00:38,932 --> 00:00:38,967
+17. println("issue is created with issue key " + issueName.getKey())
+

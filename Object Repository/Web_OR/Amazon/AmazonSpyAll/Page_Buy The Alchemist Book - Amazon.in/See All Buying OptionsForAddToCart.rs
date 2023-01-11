@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>See All Buying OptionsForAddToCart</name>
+   <tag></tag>
+   <elementGuidId>c86083cb-0dab-4ee1-9d4b-64c51b800927</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='buybox-see-all-buying-choices']/span/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.a-button-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>0c43dade-3c84-4327-a83d-cc7c8ac51ef4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/gp/offer-listing/8172234988/ref=dp_olp_unknown_mbc</value>
+      <webElementGuid>de1d07c1-18e6-4387-a5c9-1074382929af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>See All Buying Options</value>
+      <webElementGuid>d9099f64-db1b-46f1-8000-97af9bfa4d8b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-button-text</value>
+      <webElementGuid>2fd093d1-db57-4a64-9762-d6ecc0c559b7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> See All Buying Options </value>
+      <webElementGuid>99a7e2b6-b3ff-47dc-b423-c76ad2371541</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;buybox-see-all-buying-choices&quot;)/span[@class=&quot;a-button-inner&quot;]/a[@class=&quot;a-button-text&quot;]</value>
+      <webElementGuid>a9c32d12-b805-472f-a5f1-dd686a7aaf44</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='buybox-see-all-buying-choices']/span/a</value>
+      <webElementGuid>1e2ece86-3d4e-4ac9-8c66-b367578acc73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'See All Buying Options')]</value>
+      <webElementGuid>819ab388-05d3-49d2-8a3c-6ff8b8d2f285</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Plano 75024‌'])[2]/following::a[1]</value>
+      <webElementGuid>434c3247-48c1-4be0-b3c6-6d5001c4272c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Wish List'])[1]/preceding::a[1]</value>
+      <webElementGuid>4f5e6009-23bf-4d38-8f82-c3ae89a3fe71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Added to'])[1]/preceding::a[1]</value>
+      <webElementGuid>9454e1d6-3046-4ff0-8574-16ebaa640faf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See All Buying Options']/parent::*</value>
+      <webElementGuid>d7fe4d76-c44e-43ea-9808-34b00de44d41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/gp/offer-listing/8172234988/ref=dp_olp_unknown_mbc')]</value>
+      <webElementGuid>89e15434-42ac-4e24-af4b-06bac52b543f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/span/a</value>
+      <webElementGuid>ba53407b-b9c6-439c-ad83-f8df5c040305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/gp/offer-listing/8172234988/ref=dp_olp_unknown_mbc' and @title = 'See All Buying Options' and (text() = ' See All Buying Options ' or . = ' See All Buying Options ')]</value>
+      <webElementGuid>b748b548-5733-4197-b3b6-5aed02dd0705</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

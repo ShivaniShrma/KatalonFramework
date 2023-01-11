@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "E6B204B52D42A71A071EDF3F04E354E0",
+  "keywordClasses": [
+    {
+      "name": "commonKeywords.getDataFromExcel",
+      "keywordMethods": [
+        {
+          "name": "excelLocation",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

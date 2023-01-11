@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Invoice Extraction</name>
+   <tag></tag>
+   <elementGuidId>4366d7ab-bb7a-4c6d-a950-a29809a9983a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[@id='nav-mobile']/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>024498d6-67d0-4dee-9f4e-bdf5ec3dfcd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://rpachallengeocr.azurewebsites.net</value>
+      <webElementGuid>f9fc0a32-a8ee-4f9e-8532-8376152a9714</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Invoice Extraction</value>
+      <webElementGuid>f383a333-841c-4ecd-94ac-2052191df8d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-mobile&quot;)/li[4]/a[1]</value>
+      <webElementGuid>794dfb63-ba56-4be8-aaf6-c9b82f403a75</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//ul[@id='nav-mobile']/li[4]/a</value>
+      <webElementGuid>bf91b848-d9d1-41d5-8af7-aa39fb6b40b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Invoice Extraction')]</value>
+      <webElementGuid>ba159618-fa08-485a-91dc-b3d38ecfea54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movie Search'])[1]/following::a[1]</value>
+      <webElementGuid>ff8a40ac-bad7-477b-a9ab-19dcb7ddca90</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shortest Path'])[1]/following::a[2]</value>
+      <webElementGuid>34d5489f-9379-4a29-8a25-7e2155925c8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RPA Stock Market'])[1]/preceding::a[1]</value>
+      <webElementGuid>e02c108f-4763-475b-b149-485ccf093ea5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instructions'])[1]/preceding::a[2]</value>
+      <webElementGuid>20013935-9f90-401b-b66f-9843f2e16e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Invoice Extraction']/parent::*</value>
+      <webElementGuid>0324a1ec-2eba-4c14-b0e5-3d9fcf43e5c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://rpachallengeocr.azurewebsites.net')]</value>
+      <webElementGuid>6654d153-d03c-4510-9c5c-d968528c1631</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>72c84311-0806-4940-857a-c92b8545c540</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://rpachallengeocr.azurewebsites.net' and (text() = 'Invoice Extraction' or . = 'Invoice Extraction')]</value>
+      <webElementGuid>61ee4cf5-ac51-4392-a195-fd188d695ae3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

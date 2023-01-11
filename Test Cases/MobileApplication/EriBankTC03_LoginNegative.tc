@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: EriBankTC03_LoginNegative
+Description: Test Steps:
+1. startApplication(EriBankAndroidLocation, true)
+2. setText(findTestObject(&quot;Object Repository/EriBank/EriBankLoginNegative/UsernameTextBox&quot;), Username, 0)
+3. setText(findTestObject(&quot;Object Repository/EriBank/EriBankLoginNegative/PasswordTextBox&quot;), Password, 0)
+4. tap(findTestObject(&quot;Object Repository/EriBank/EriBankLoginNegative/LoginButton&quot;), 0)
+5. tap(findTestObject(&quot;Object Repository/EriBank/EriBankLoginNegative/TextView - Invalid username or password&quot;), 0)
+6. verifyMatch(&quot;Invalid username or password&quot;, &quot;Invalid username or password&quot;, false)
+7. tap(findTestObject(&quot;Object Repository/EriBank/EriBankLoginNegative/CloseButton&quot;), 0)
+8. closeApplication()
+9. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>EriBankTC03_LoginNegative</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i00027:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;EriBankTC03_LoginNegative&quot;,&quot;description&quot;:&quot;Test Steps:\n1. startApplication(EriBankAndroidLocation, true)\n2. setText(findTestObject(\&quot;Object Repository/EriBank/EriBankLoginNegative/UsernameTextBox\&quot;), Username, 0)\n3. setText(findTestObject(\&quot;Object Repository/EriBank/EriBankLoginNegative/PasswordTextBox\&quot;), Password, 0)\n4. tap(findTestObject(\&quot;Object Repository/EriBank/EriBankLoginNegative/LoginButton\&quot;), 0)\n5. tap(findTestObject(\&quot;Object Repository/EriBank/EriBankLoginNegative/TextView - Invalid username or password\&quot;), 0)\n6. verifyMatch(\&quot;Invalid username or password\&quot;, \&quot;Invalid username or password\&quot;, false)\n7. tap(findTestObject(\&quot;Object Repository/EriBank/EriBankLoginNegative/CloseButton\&quot;), 0)\n8. closeApplication()\n9. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-149/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10148&quot;,&quot;key&quot;:&quot;KAT-149&quot;,&quot;id&quot;:10148}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>18</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>58c87e5a-889f-477a-9147-4c7a84d9e24c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a2e15c0b-1a23-4cfd-9969-05db7241ad57</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>2-2</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/EriBank_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>a2e15c0b-1a23-4cfd-9969-05db7241ad57</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>fb7d6bf8-9a00-4275-be3c-f0c12cf39e71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>a2e15c0b-1a23-4cfd-9969-05db7241ad57</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>3b529de1-be4f-4482-beee-d9104be80439</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fb7d6bf8-9a00-4275-be3c-f0c12cf39e71</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3b529de1-be4f-4482-beee-d9104be80439</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>

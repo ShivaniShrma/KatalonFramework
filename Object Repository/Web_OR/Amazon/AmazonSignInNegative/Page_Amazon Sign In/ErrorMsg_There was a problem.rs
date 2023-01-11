@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ErrorMsg_There was a problem</name>
+   <tag></tag>
+   <elementGuidId>26dd9467-69ba-4aaa-bbc8-6a05bf659d54</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='auth-error-message-box']/div/h4</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h4.a-alert-heading</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h4</value>
+      <webElementGuid>181190bf-254d-434d-9670-4017f428cf53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-alert-heading</value>
+      <webElementGuid>9129758d-5fb0-435c-add5-2b2ff148e22e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>There was a problem</value>
+      <webElementGuid>1fde27dc-65eb-4c20-a2b4-fa28a77479db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;auth-error-message-box&quot;)/div[@class=&quot;a-box-inner a-alert-container&quot;]/h4[@class=&quot;a-alert-heading&quot;]</value>
+      <webElementGuid>10e0b341-18d8-4d78-8ddb-3ec42710cedd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='auth-error-message-box']/div/h4</value>
+      <webElementGuid>a5377398-0854-45a7-946e-34a1eea8e788</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We cannot find an account with that email address'])[1]/preceding::h4[1]</value>
+      <webElementGuid>23a2a364-1d03-4a01-94c5-8a9d767b94a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/preceding::h4[1]</value>
+      <webElementGuid>e6d24799-7a87-4451-999a-c17e4a4eafa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='There was a problem']/parent::*</value>
+      <webElementGuid>eb80a2bf-cc01-4412-a18a-b51d06fff5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4</value>
+      <webElementGuid>ec74bff0-90f9-4640-8cf8-0ba43e31a65d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h4[(text() = 'There was a problem' or . = 'There was a problem')]</value>
+      <webElementGuid>d05aa3c4-b228-46ec-89b2-28a1a54c167a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

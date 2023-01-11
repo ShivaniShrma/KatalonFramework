@@ -1,0 +1,110 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WebSuite_Adactin,Chrome 108.0.0.0,,,2022-12-19 12:55:23,2022-12-19 12:57:32,2m - 8.517s,FAILED
+,,,,,,,
+Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails,Chrome 108.0.0.0,"Summary: AdactinTC01_VerifyLoginDetails
+Description: Test Steps:
+1. openBrowser("""")
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))
+4. applicationKeyword.WebKeywords.logout(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))
+5. closeBrowser()
+6. Start listener action : sampleAfterTestCase
+
+",jira-integration,2022-12-19 12:55:24,2022-12-19 12:55:53,28.786s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-19 12:55:26,2022-12-19 12:55:32,5.835s,PASSED
+commonKeywords.RefreshBrowser.refreshBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:55:32,2022-12-19 12:55:32,0.391s,PASSED
+navigateToUrl(AdactinUrl),Chrome 108.0.0.0,,,2022-12-19 12:55:32,2022-12-19 12:55:41,8.982s,PASSED
+"applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))",Chrome 108.0.0.0,,,2022-12-19 12:55:41,2022-12-19 12:55:49,7.843s,PASSED
+"applicationKeyword.WebKeywords.logout(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))",Chrome 108.0.0.0,,,2022-12-19 12:55:49,2022-12-19 12:55:50,1.010s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:55:50,2022-12-19 12:55:51,1.039s,PASSED
+Start listener action : JiraBugs,Chrome 108.0.0.0,,,2022-12-19 12:55:51,2022-12-19 12:55:51,0.079s,PASSED
+Video,Chrome 108.0.0.0,,,2022-12-19 12:55:53,2022-12-19 12:55:53,0.002s,PASSED
+,,,,,,,
+Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel,Chrome 108.0.0.0,"Summary: AdactinTC02_VerifyLocationInSelectHotel
+Description: Test Steps:
+1. openBrowser("""")
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))
+4. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location""), Location, true)
+5. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel""), HotelName, true)
+6. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type""), RoomType, true)
+7. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in""), CheckInDate)
+8. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out""), CheckOutDate)
+9. click(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit""))
+10. verifyMatch(Location, ""Sydney"", false)
+11. applicationKeyword.WebKeywords.logout(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))
+12. closeBrowser()
+13. Start listener action : sampleAfterTestCase
+
+",jira-integration,2022-12-19 12:55:53,2022-12-19 12:56:25,31.671s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-19 12:55:54,2022-12-19 12:55:56,1.966s,PASSED
+commonKeywords.RefreshBrowser.refreshBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:55:56,2022-12-19 12:55:56,0.038s,PASSED
+navigateToUrl(AdactinUrl),Chrome 108.0.0.0,,,2022-12-19 12:55:56,2022-12-19 12:56:06,9.740s,PASSED
+"applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))",Chrome 108.0.0.0,,,2022-12-19 12:56:06,2022-12-19 12:56:13,7.461s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location""), Location, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:13,2022-12-19 12:56:15,1.344s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel""), HotelName, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:15,2022-12-19 12:56:16,1.286s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type""), RoomType, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:16,2022-12-19 12:56:17,1.186s,PASSED
+"setText(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in""), CheckInDate)",Chrome 108.0.0.0,,,2022-12-19 12:56:17,2022-12-19 12:56:18,0.819s,PASSED
+"setText(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out""), CheckOutDate)",Chrome 108.0.0.0,,,2022-12-19 12:56:18,2022-12-19 12:56:19,1.004s,PASSED
+"click(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit""))",Chrome 108.0.0.0,,,2022-12-19 12:56:19,2022-12-19 12:56:21,1.654s,PASSED
+"verifyMatch(Location, ""Sydney"", false)",Chrome 108.0.0.0,,,2022-12-19 12:56:21,2022-12-19 12:56:21,0.066s,PASSED
+"applicationKeyword.WebKeywords.logout(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))",Chrome 108.0.0.0,,,2022-12-19 12:56:21,2022-12-19 12:56:22,1.018s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:56:22,2022-12-19 12:56:23,1.012s,PASSED
+Start listener action : JiraBugs,Chrome 108.0.0.0,,,2022-12-19 12:56:23,2022-12-19 12:56:23,0.021s,PASSED
+Video,Chrome 108.0.0.0,,,2022-12-19 12:56:25,2022-12-19 12:56:25,0.001s,PASSED
+,,,,,,,
+Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel,Chrome 108.0.0.0,"Summary: AdactinTC03_VerifyDatesInSelectHotel
+Description: Test Steps:
+1. openBrowser("""")
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))
+4. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location""), Location, true)
+5. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel""), HotelName, true)
+6. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type""), RoomType, true)
+7. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in""), CheckInDate)
+8. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out""), CheckOutDate)
+9. click(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit""))
+10. verifyMatch(CheckInDate, ""5/12/22"", false)
+11. verifyMatch(CheckOutDate, ""6/12/22"", false)
+12. applicationKeyword.WebKeywords.logout(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))
+13. closeBrowser()
+14. Start listener action : sampleAfterTestCase
+
+",jira-integration,2022-12-19 12:56:25,2022-12-19 12:57:06,41.025s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-19 12:56:26,2022-12-19 12:56:29,2.114s,PASSED
+commonKeywords.RefreshBrowser.refreshBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:56:29,2022-12-19 12:56:29,0.104s,PASSED
+navigateToUrl(AdactinUrl),Chrome 108.0.0.0,,,2022-12-19 12:56:29,2022-12-19 12:56:44,15.210s,PASSED
+"applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))",Chrome 108.0.0.0,,,2022-12-19 12:56:44,2022-12-19 12:56:50,6.145s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location""), Location, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:50,2022-12-19 12:56:51,1.512s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel""), HotelName, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:51,2022-12-19 12:56:53,1.371s,PASSED
+"selectOptionByValue(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type""), RoomType, true)",Chrome 108.0.0.0,,,2022-12-19 12:56:53,2022-12-19 12:56:54,1.172s,PASSED
+"setText(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in""), CheckInDate)",Chrome 108.0.0.0,,,2022-12-19 12:56:54,2022-12-19 12:56:55,0.970s,PASSED
+"setText(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out""), CheckOutDate)",Chrome 108.0.0.0,,,2022-12-19 12:56:55,2022-12-19 12:56:56,0.923s,PASSED
+"click(findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit""))",Chrome 108.0.0.0,,,2022-12-19 12:56:56,2022-12-19 12:56:58,1.674s,PASSED
+"verifyMatch(CheckInDate, ""05/12/2022"", false)",Chrome 108.0.0.0,,,2022-12-19 12:56:58,2022-12-19 12:56:58,0.058s,FAILED
+Start listener action : JiraBugs,Chrome 108.0.0.0,,,2022-12-19 12:56:58,2022-12-19 12:57:04,6.428s,PASSED
+Video,Chrome 108.0.0.0,,,2022-12-19 12:57:06,2022-12-19 12:57:06,0.000s,PASSED
+,,,,,,,
+Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed,Chrome 108.0.0.0,"Summary: AdactinTC04_VerifyLoginDetailsFailed
+Description: Test Steps:
+1. openBrowser("""")
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))
+4. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location""), Location, true)
+5. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel""), HotelName, true)
+6. selectOptionByValue(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type""), RoomType, true)
+7. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in""), CheckInDate)
+8. setText(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out""), CheckOutDate)
+9. click(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit""))
+10. verifyMatch(CheckInDate, ""5/12/22"", false)
+11. verifyMatch(CheckOutDate, ""6/12/22"", false)
+12. applicationKeyword.WebKeywords.logout(findTestObject(""Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout""))
+13. closeBrowser()
+14. Start listener action : sampleAfterTestCase",jira-integration,2022-12-19 12:57:06,2022-12-19 12:57:32,25.498s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-19 12:57:07,2022-12-19 12:57:10,2.685s,PASSED
+commonKeywords.RefreshBrowser.refreshBrowser(),Chrome 108.0.0.0,,,2022-12-19 12:57:10,2022-12-19 12:57:10,0.037s,PASSED
+navigateToUrl(AdactinUrl),Chrome 108.0.0.0,,,2022-12-19 12:57:10,2022-12-19 12:57:19,9.454s,PASSED
+"applicationKeyword.WebKeywords.login(Username, Password, findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword""), findTestObject(""Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton""))",Chrome 108.0.0.0,,,2022-12-19 12:57:19,2022-12-19 12:57:27,8.028s,PASSED
+"verifyEqual(!(true), true)",Chrome 108.0.0.0,,,2022-12-19 12:57:27,2022-12-19 12:57:27,0.042s,FAILED
+Start listener action : JiraBugs,Chrome 108.0.0.0,,,2022-12-19 12:57:27,2022-12-19 12:57:30,2.311s,PASSED
+Video,Chrome 108.0.0.0,,,2022-12-19 12:57:32,2022-12-19 12:57:32,0.001s,PASSED

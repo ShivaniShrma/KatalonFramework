@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebSuite_OrangeHrm" time="6.771" tests="1" failures="0" errors="0">
+   <testsuite name="WebSuite_OrangeHrm" tests="1" failures="0" errors="0" time="6.771" skipped="0" timestamp="2022-12-19 16:50:50" hostname="TX - host.docker.internal" id="Test Suites/TestSuites/Web_TS/WebSuite_OrangeHrm">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TX\\Katalon Studio\\katalonframework-Shivani\\Reports\\20221219_165032\\TestSuites\\Web_TS\\WebSuite_OrangeHrm\\20221219_165032"/>
+         <property name="logFiles" value="C:\\Users\\TX\\Katalon Studio\\katalonframework-Shivani\\Reports\\20221219_165032\\TestSuites\\Web_TS\\WebSuite_OrangeHrm\\20221219_165032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TX - host.docker.internal"/>
+         <property name="hostAddress" value="192.168.8.56"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+      </properties>
+      <testcase name="Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login" time="4.682" classname="Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login" status="PASSED">
+         <system-out><![CDATA[2022-12-19 16:50:53 - [TEST_CASE][PASSED] - Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login: Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - return null: null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - Start listener action : JiraBugs: null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - Status = testCaseContext.getTestCaseStatus(): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - desc = getExecutionSourceDescription(): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - name = getExecutionSourceName(): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - name1 = getName(): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - println(getLogFolderPath()): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - println(Status): null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - a = "FAILED": null
+
+2022-12-19 16:50:55 - [TEST_STEP][PASSED] - if (Status == a): null
+
+2022-12-19 16:50:57 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login' .
+
+2022-12-19 16:50:57 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-19 16:50:50 - [TEST_SUITE][PASSED] - WebSuite_OrangeHrm: Test Cases/WebApplication/OrangeHrm/OrangeHrmTC01_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

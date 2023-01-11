@@ -1,0 +1,64 @@
+1
+00:00:01,085 --> 00:00:06,902
+1. openBrowser("")
+
+2
+00:00:06,917 --> 00:00:07,315
+5. commonKeywords.RefreshBrowser.refreshBrowser()
+
+3
+00:00:07,316 --> 00:00:16,298
+9. navigateToUrl(AdactinUrl)
+
+4
+00:00:16,299 --> 00:00:24,142
+13. applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton"))
+
+5
+00:00:24,143 --> 00:00:25,152
+17. applicationKeyword.WebKeywords.logout(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout"))
+
+6
+00:00:25,153 --> 00:00:26,199
+21. closeBrowser()
+
+7
+00:00:26,200 --> 00:00:26,221
+1. println(testCaseContext.getTestCaseId())
+
+8
+00:00:26,223 --> 00:00:26,224
+5. Status = testCaseContext.getTestCaseStatus()
+
+9
+00:00:26,224 --> 00:00:26,224
+9. desc = getExecutionSourceDescription()
+
+10
+00:00:26,224 --> 00:00:26,224
+13. name = getExecutionSourceName()
+
+11
+00:00:26,224 --> 00:00:26,261
+17. name1 = getName()
+
+12
+00:00:26,261 --> 00:00:26,261
+21. println(getLogFolderPath())
+
+13
+00:00:26,261 --> 00:00:26,261
+25. println(testCaseContext.getTestCaseVariables())
+
+14
+00:00:26,261 --> 00:00:26,261
+29. println(Status)
+
+15
+00:00:26,272 --> 00:00:26,273
+33. a = "FAILED"
+
+16
+00:00:26,273 --> 00:00:26,273
+37. if (Status == a)
+

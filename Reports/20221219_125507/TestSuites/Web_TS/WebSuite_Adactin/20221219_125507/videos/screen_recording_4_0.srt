@@ -1,0 +1,80 @@
+1
+00:00:00,866 --> 00:00:03,506
+1. openBrowser("")
+
+2
+00:00:03,551 --> 00:00:03,588
+5. commonKeywords.RefreshBrowser.refreshBrowser()
+
+3
+00:00:03,589 --> 00:00:13,043
+9. navigateToUrl(AdactinUrl)
+
+4
+00:00:13,043 --> 00:00:21,070
+13. applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton"))
+
+5
+00:00:21,072 --> 00:00:21,119
+17. verifyEqual(!(true), true)
+
+6
+00:00:21,120 --> 00:00:21,120
+1. println(testCaseContext.getTestCaseId())
+
+7
+00:00:21,121 --> 00:00:21,122
+5. Status = testCaseContext.getTestCaseStatus()
+
+8
+00:00:21,123 --> 00:00:21,124
+9. desc = getExecutionSourceDescription()
+
+9
+00:00:21,125 --> 00:00:21,125
+13. name = getExecutionSourceName()
+
+10
+00:00:21,126 --> 00:00:21,127
+17. name1 = getName()
+
+11
+00:00:21,128 --> 00:00:21,128
+21. println(getLogFolderPath())
+
+12
+00:00:21,128 --> 00:00:21,128
+25. println(testCaseContext.getTestCaseVariables())
+
+13
+00:00:21,128 --> 00:00:21,128
+29. println(Status)
+
+14
+00:00:21,128 --> 00:00:21,128
+33. a = "FAILED"
+
+15
+00:00:21,128 --> 00:00:21,128
+37. if (Status == a)
+
+16
+00:00:21,128 --> 00:00:21,128
+1. println("Failed")
+
+17
+00:00:21,128 --> 00:00:21,128
+5. creds = new net.rcarz.jiraclient.BasicCredentials(nofoxo7854@lidely.com, fXtOhjozaeL0AY53JUEB10B9)
+
+18
+00:00:21,128 --> 00:00:21,158
+9. jira = new net.rcarz.jiraclient.JiraClient(https://nofoxo.atlassian.net/, creds)
+
+19
+00:00:21,159 --> 00:00:23,427
+13. issueName = toString()).execute()
+
+20
+00:00:23,428 --> 00:00:23,429
+17. println("issue is created with issue key " + issueName.getKey())
+

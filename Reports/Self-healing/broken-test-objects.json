@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Select Hotel/ArrivalDateCheck",
+      "brokenLocator": "//*[@id \u003d \u0027arr_date_0\u0027 and @type \u003d \u0027text\u0027 and @value \u003d \u002705/12/2022\u0027 and @class \u003d \u0027select_text\u0027]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//input[@id\u003d\u0027arr_date_0\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Select Hotel/ArrivalDateCheck_XPATH.png"
+    }
+  ]
+}

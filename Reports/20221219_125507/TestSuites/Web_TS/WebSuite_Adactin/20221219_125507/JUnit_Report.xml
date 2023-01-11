@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WebSuite_Adactin" time="128.517" tests="4" failures="2" errors="0">
+   <testsuite name="WebSuite_Adactin" tests="4" failures="2" errors="0" time="128.517" skipped="0" timestamp="2022-12-19 12:55:23" hostname="TX - host.docker.internal" id="Test Suites/TestSuites/Web_TS/WebSuite_Adactin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TX\\Katalon Studio\\katalonframework-Shivani\\Reports\\20221219_125507\\TestSuites\\Web_TS\\WebSuite_Adactin\\20221219_125507"/>
+         <property name="logFiles" value="C:\\Users\\TX\\Katalon Studio\\katalonframework-Shivani\\Reports\\20221219_125507\\TestSuites\\Web_TS\\WebSuite_Adactin\\20221219_125507\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TX - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.5.5.208"/>
+         <property name="browser" value="Chrome 108.0.0.0"/>
+         <property name="hostAddress" value="192.168.8.56"/>
+         <property name="sessionId" value="c69454f79fafa4a4960dc3f412c5e176"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails" time="28.786" classname="Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails" status="PASSED">
+         <system-out><![CDATA[2022-12-19 12:55:24 - [TEST_CASE][PASSED] - Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails: Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails
+
+2022-12-19 12:55:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 12:55:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 12:55:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 12:55:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 12:55:32 - [TEST_STEP][PASSED] - commonKeywords.RefreshBrowser.refreshBrowser(): Refresh successfully
+
+2022-12-19 12:55:32 - [MESSAGE][INFO] - Refreshing
+
+2022-12-19 12:55:32 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-19 12:55:32 - [TEST_STEP][PASSED] - navigateToUrl(AdactinUrl): Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:55:41 - [MESSAGE][PASSED] - Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:55:41 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton")): applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:55:42 - [MESSAGE][PASSED] - Text 'mokijoycosaxu' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername'
+
+2022-12-19 12:55:43 - [MESSAGE][PASSED] - Text 'testpassword' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword'
+
+2022-12-19 12:55:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton' is clicked on
+
+2022-12-19 12:55:49 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:55:49 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.logout(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout")): applicationKeyword.WebKeywords.logout is PASSED
+
+2022-12-19 12:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout' is clicked on
+
+2022-12-19 12:55:50 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.logout is PASSED
+
+2022-12-19 12:55:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 12:55:51 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - Start listener action : JiraBugs: null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - Status = testCaseContext.getTestCaseStatus(): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - desc = getExecutionSourceDescription(): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - name = getExecutionSourceName(): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - name1 = getName(): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - println(getLogFolderPath()): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - println(Status): null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - a = "FAILED": null
+
+2022-12-19 12:55:51 - [TEST_STEP][PASSED] - if (Status == a): null
+
+2022-12-19 12:55:53 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails' .
+
+2022-12-19 12:55:53 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC01_VerifyLoginDetails' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel" time="31.671" classname="Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel" status="PASSED">
+         <system-out><![CDATA[2022-12-19 12:55:53 - [TEST_CASE][PASSED] - Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel: Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel
+
+2022-12-19 12:55:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 12:55:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 12:55:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 12:55:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 12:55:56 - [TEST_STEP][PASSED] - commonKeywords.RefreshBrowser.refreshBrowser(): Refresh successfully
+
+2022-12-19 12:55:56 - [MESSAGE][INFO] - Refreshing
+
+2022-12-19 12:55:56 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-19 12:55:56 - [TEST_STEP][PASSED] - navigateToUrl(AdactinUrl): Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:56:06 - [MESSAGE][PASSED] - Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:56:06 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton")): applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:56:07 - [MESSAGE][PASSED] - Text 'mokijoycosaxu' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername'
+
+2022-12-19 12:56:08 - [MESSAGE][PASSED] - Text 'testpassword' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword'
+
+2022-12-19 12:56:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton' is clicked on
+
+2022-12-19 12:56:13 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:56:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location"), Location, true): All options with value 'Sydney' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location'  using regular expression
+
+2022-12-19 12:56:15 - [MESSAGE][PASSED] - All options with value 'Sydney' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location'  using regular expression
+
+2022-12-19 12:56:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel"), HotelName, true): All options with value 'Hotel Creek' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel'  using regular expression
+
+2022-12-19 12:56:16 - [MESSAGE][PASSED] - All options with value 'Hotel Creek' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel'  using regular expression
+
+2022-12-19 12:56:16 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type"), RoomType, true): All options with value 'Standard' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type'  using regular expression
+
+2022-12-19 12:56:17 - [MESSAGE][PASSED] - All options with value 'Standard' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type'  using regular expression
+
+2022-12-19 12:56:17 - [TEST_STEP][PASSED] - setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in"), CheckInDate): Text '5/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in'
+
+2022-12-19 12:56:18 - [MESSAGE][PASSED] - Text '5/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in'
+
+2022-12-19 12:56:18 - [TEST_STEP][PASSED] - setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out"), CheckOutDate): Text '6/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out'
+
+2022-12-19 12:56:19 - [MESSAGE][PASSED] - Text '6/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out'
+
+2022-12-19 12:56:19 - [TEST_STEP][PASSED] - click(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit")): Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit' is clicked on
+
+2022-12-19 12:56:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit' is clicked on
+
+2022-12-19 12:56:21 - [TEST_STEP][PASSED] - verifyMatch(Location, "Sydney", false): Actual text 'Sydney' and expected text 'Sydney' are matched 
+
+2022-12-19 12:56:21 - [MESSAGE][PASSED] - Actual text 'Sydney' and expected text 'Sydney' are matched 
+
+2022-12-19 12:56:21 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.logout(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout")): applicationKeyword.WebKeywords.logout is PASSED
+
+2022-12-19 12:56:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout' is clicked on
+
+2022-12-19 12:56:22 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.logout is PASSED
+
+2022-12-19 12:56:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-12-19 12:56:23 - [MESSAGE][PASSED] - Browser is closed
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - Start listener action : JiraBugs: null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - Status = testCaseContext.getTestCaseStatus(): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - desc = getExecutionSourceDescription(): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - name = getExecutionSourceName(): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - name1 = getName(): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - println(getLogFolderPath()): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - println(Status): null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - a = "FAILED": null
+
+2022-12-19 12:56:23 - [TEST_STEP][PASSED] - if (Status == a): null
+
+2022-12-19 12:56:25 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel' .
+
+2022-12-19 12:56:25 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC02_VerifyLocationInSelectHotel' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel" time="41.025" classname="Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-19 12:56:25 - [TEST_CASE][FAILED] - Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel: Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+
+
+2022-12-19 12:56:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 12:56:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 12:56:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 12:56:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 12:56:29 - [TEST_STEP][PASSED] - commonKeywords.RefreshBrowser.refreshBrowser(): Refresh successfully
+
+2022-12-19 12:56:29 - [MESSAGE][INFO] - Refreshing
+
+2022-12-19 12:56:29 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-19 12:56:29 - [TEST_STEP][PASSED] - navigateToUrl(AdactinUrl): Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:56:44 - [MESSAGE][PASSED] - Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:56:44 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton")): applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:56:45 - [MESSAGE][PASSED] - Text 'mokijoycosaxu' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername'
+
+2022-12-19 12:56:46 - [MESSAGE][PASSED] - Text 'testpassword' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword'
+
+2022-12-19 12:56:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton' is clicked on
+
+2022-12-19 12:56:50 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:56:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location"), Location, true): All options with value 'Sydney' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location'  using regular expression
+
+2022-12-19 12:56:51 - [MESSAGE][PASSED] - All options with value 'Sydney' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Location'  using regular expression
+
+2022-12-19 12:56:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel"), HotelName, true): All options with value 'Hotel Creek' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel'  using regular expression
+
+2022-12-19 12:56:53 - [MESSAGE][PASSED] - All options with value 'Hotel Creek' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Hotel'  using regular expression
+
+2022-12-19 12:56:53 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type"), RoomType, true): All options with value 'Standard' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type'  using regular expression
+
+2022-12-19 12:56:54 - [MESSAGE][PASSED] - All options with value 'Standard' are selected in object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Select Room Type'  using regular expression
+
+2022-12-19 12:56:54 - [TEST_STEP][PASSED] - setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in"), CheckInDate): Text '5/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in'
+
+2022-12-19 12:56:55 - [MESSAGE][PASSED] - Text '5/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_in'
+
+2022-12-19 12:56:55 - [TEST_STEP][PASSED] - setText(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out"), CheckOutDate): Text '6/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out'
+
+2022-12-19 12:56:56 - [MESSAGE][PASSED] - Text '6/12/22' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_inputdatepick_out'
+
+2022-12-19 12:56:56 - [TEST_STEP][PASSED] - click(findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit")): Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit' is clicked on
+
+2022-12-19 12:56:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/SpySubmit' is clicked on
+
+2022-12-19 12:56:58 - [TEST_STEP][FAILED] - verifyMatch(CheckInDate, "05/12/2022", false): Unable to verify match between actual text '5/12/22' and expected text '05/12/2022' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+)
+
+2022-12-19 12:56:58 - [MESSAGE][FAILED] - Unable to verify match between actual text '5/12/22' and expected text '05/12/2022' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+)
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - Start listener action : JiraBugs: null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - Status = testCaseContext.getTestCaseStatus(): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - desc = getExecutionSourceDescription(): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - name = getExecutionSourceName(): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - name1 = getName(): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - println(getLogFolderPath()): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - println(Status): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - a = "FAILED": null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - if (Status == a): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - println("Failed"): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - creds = new net.rcarz.jiraclient.BasicCredentials(nofoxo7854@lidely.com, fXtOhjozaeL0AY53JUEB10B9): null
+
+2022-12-19 12:56:58 - [TEST_STEP][PASSED] - jira = new net.rcarz.jiraclient.JiraClient(https://nofoxo.atlassian.net/, creds): null
+
+2022-12-19 12:57:00 - [TEST_STEP][PASSED] - issueName = toString()).execute(): null
+
+2022-12-19 12:57:04 - [TEST_STEP][PASSED] - println("issue is created with issue key " + issueName.getKey()): null
+
+2022-12-19 12:57:06 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel' .
+
+2022-12-19 12:57:06 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel' .]]></system-out>
+         <system-err><![CDATA[2022-12-19 12:56:25 - [TEST_CASE][FAILED] - Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel: Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed" time="25.498" classname="Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed" status="FAILED">
+         <failure type="FAILED" message="Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at AdactinTC04_VerifyLoginDetailsFailed.run(AdactinTC04_VerifyLoginDetailsFailed:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+"/>
+         <system-out><![CDATA[2022-12-19 12:57:06 - [TEST_CASE][FAILED] - Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed: Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at AdactinTC04_VerifyLoginDetailsFailed.run(AdactinTC04_VerifyLoginDetailsFailed:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+
+
+2022-12-19 12:57:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-12-19 12:57:07 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-12-19 12:57:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-12-19 12:57:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-12-19 12:57:10 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-12-19 12:57:10 - [TEST_STEP][PASSED] - commonKeywords.RefreshBrowser.refreshBrowser(): Refresh successfully
+
+2022-12-19 12:57:10 - [MESSAGE][INFO] - Refreshing
+
+2022-12-19 12:57:10 - [MESSAGE][PASSED] - Refresh successfully
+
+2022-12-19 12:57:10 - [TEST_STEP][PASSED] - navigateToUrl(AdactinUrl): Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:57:19 - [MESSAGE][PASSED] - Navigate to 'http://adactinhotelapp.com/index.php' successfully
+
+2022-12-19 12:57:19 - [TEST_STEP][PASSED] - applicationKeyword.WebKeywords.login(Username, Password, findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword"), findTestObject("Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton")): applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:57:20 - [MESSAGE][PASSED] - Text 'mokijoycosaxu' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername'
+
+2022-12-19 12:57:21 - [MESSAGE][PASSED] - Text 'testpassword' is set on object 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword'
+
+2022-12-19 12:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Web_OR/Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton' is clicked on
+
+2022-12-19 12:57:27 - [MESSAGE][PASSED] - applicationKeyword.WebKeywords.login is PASSED
+
+2022-12-19 12:57:27 - [TEST_STEP][FAILED] - verifyEqual(!(true), true): Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at AdactinTC04_VerifyLoginDetailsFailed.run(AdactinTC04_VerifyLoginDetailsFailed:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+)
+
+2022-12-19 12:57:27 - [MESSAGE][FAILED] - Unable to verify equal between actual object 'false' and expected object 'true' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at AdactinTC04_VerifyLoginDetailsFailed.run(AdactinTC04_VerifyLoginDetailsFailed:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)
+)
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - Start listener action : JiraBugs: null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseId()): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - Status = testCaseContext.getTestCaseStatus(): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - desc = getExecutionSourceDescription(): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - name = getExecutionSourceName(): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - name1 = getName(): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - println(getLogFolderPath()): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - println(testCaseContext.getTestCaseVariables()): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - println(Status): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - a = "FAILED": null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - if (Status == a): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - println("Failed"): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - creds = new net.rcarz.jiraclient.BasicCredentials(nofoxo7854@lidely.com, fXtOhjozaeL0AY53JUEB10B9): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - jira = new net.rcarz.jiraclient.JiraClient(https://nofoxo.atlassian.net/, creds): null
+
+2022-12-19 12:57:27 - [TEST_STEP][PASSED] - issueName = toString()).execute(): null
+
+2022-12-19 12:57:30 - [TEST_STEP][PASSED] - println("issue is created with issue key " + issueName.getKey()): null
+
+2022-12-19 12:57:32 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed' .
+
+2022-12-19 12:57:32 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed' .]]></system-out>
+         <system-err><![CDATA[2022-12-19 12:57:06 - [TEST_CASE][FAILED] - Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed: Test Cases/WebApplication/Adactin/AdactinTC04_VerifyLoginDetailsFailed FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual object 'false' and expected object 'true' are not equal
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.doCall(VerifyEqualKeyword.groovy:58)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword$_verifyEqual_closure1.call(VerifyEqualKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.verifyEqual(VerifyEqualKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.VerifyEqualKeyword.execute(VerifyEqualKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyEqual(BuiltinKeywords.groovy:141)
+	at AdactinTC04_VerifyLoginDetailsFailed.run(AdactinTC04_VerifyLoginDetailsFailed:29)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-12-19 12:55:23 - [TEST_SUITE][FAILED] - WebSuite_Adactin: Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-12-19 12:55:23 - [TEST_SUITE][FAILED] - WebSuite_Adactin: Test Cases/WebApplication/Adactin/AdactinTC03_VerifyDatesInSelectHotel FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text '5/12/22' and expected text '05/12/2022' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:74)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at AdactinTC03_VerifyDatesInSelectHotel.run(AdactinTC03_VerifyDatesInSelectHotel:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:151)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1671434707125.run(TempTestSuite1671434707125.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

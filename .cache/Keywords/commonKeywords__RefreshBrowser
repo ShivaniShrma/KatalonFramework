@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "0C0349468225367DC29B80A5D0B28EAC",
+  "keywordClasses": [
+    {
+      "name": "commonKeywords.RefreshBrowser",
+      "keywordMethods": [
+        {
+          "name": "refreshBrowser",
+          "parameters": [],
+          "javadoc": "/**\n\t * Refresh browser\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

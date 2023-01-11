@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "B564B41D267AA8A96357D468E67BF01C",
+  "keywordClasses": [
+    {
+      "name": "commonKeywords.XmlToJson",
+      "keywordMethods": [
+        {
+          "name": "convertXmltoJson",
+          "parameters": [
+            {
+              "name": "xmlFilePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

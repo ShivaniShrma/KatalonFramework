@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Summary: AdactinTC01_VerifyLoginDetails
+Description: Test Steps:
+1. openBrowser(&quot;&quot;)
+2. navigateToUrl(AdactinUrl)
+3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername&quot;), findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword&quot;), findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton&quot;))
+4. applicationKeyword.WebKeywords.logout(findTestObject(&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout&quot;))
+5. closeBrowser()
+6. Start listener action : sampleAfterTestCase
+
+</description>
+   <name>AdactinTC01_VerifyLoginDetails</name>
+   <tag>jira-integration</tag>
+   <integratedEntity>
+      <productName>JIRA</productName>
+      <properties>
+         <entry>
+            <key>integratedValue</key>
+            <value>{&quot;jiraIssue&quot;:{&quot;fields&quot;:{&quot;customFields&quot;:{&quot;customfield_10000&quot;:&quot;{}&quot;,&quot;customfield_10018&quot;:{&quot;hasEpicLinkFieldDependency&quot;:false,&quot;showField&quot;:false,&quot;nonEditableReason&quot;:{&quot;reason&quot;:&quot;PLUGIN_LICENSE_ERROR&quot;,&quot;message&quot;:&quot;The Parent Link is only available to Jira Premium users.&quot;}},&quot;customfield_10019&quot;:&quot;0|i0002f:&quot;},&quot;status&quot;:{&quot;id&quot;:10000,&quot;description&quot;:&quot;&quot;,&quot;iconUrl&quot;:&quot;https://nofoxo.atlassian.net/&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/status/10000&quot;,&quot;name&quot;:&quot;To Do&quot;},&quot;project&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/project/10000&quot;,&quot;key&quot;:&quot;KAT&quot;,&quot;id&quot;:10000,&quot;name&quot;:&quot;Katalon&quot;},&quot;components&quot;:[],&quot;summary&quot;:&quot;AdactinTC01_VerifyLoginDetails&quot;,&quot;description&quot;:&quot;Test Steps:\n1. openBrowser(\&quot;\&quot;)\n2. navigateToUrl(AdactinUrl)\n3. applicationKeyword.WebKeywords.login(Username, Password, findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputUsername\&quot;), findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_inputPassword\&quot;), findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Hotel Reservation System/Spy_loginButton\&quot;))\n4. applicationKeyword.WebKeywords.logout(findTestObject(\&quot;Adactin/AdactinSpy/Page_Adactin.com - Search Hotel/Spy_Logout\&quot;))\n5. closeBrowser()\n6. Start listener action : sampleAfterTestCase\n\n&quot;,&quot;reporter&quot;:{&quot;emailAddress&quot;:&quot;nofoxo7854@lidely.com&quot;,&quot;active&quot;:true,&quot;displayName&quot;:&quot;nofoxo&quot;,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/user?accountId\u003d63771e1ede5cdaba3a669a8e&quot;},&quot;priority&quot;:{&quot;id&quot;:3,&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/priority/3&quot;,&quot;name&quot;:&quot;Medium&quot;},&quot;votes&quot;:{&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/KAT-150/votes&quot;,&quot;votes&quot;:0,&quot;hasVoted&quot;:false},&quot;fixVersions&quot;:[],&quot;subtasks&quot;:[],&quot;labels&quot;:[]},&quot;self&quot;:&quot;https://nofoxo.atlassian.net/rest/api/2/issue/10149&quot;,&quot;key&quot;:&quot;KAT-150&quot;,&quot;id&quot;:10149}}</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <integratedEntity>
+      <productName>Azure</productName>
+      <properties>
+         <entry>
+            <key>azure.testcase.ids</key>
+            <value>39</value>
+         </entry>
+      </properties>
+      <type>TESTCASE</type>
+   </integratedEntity>
+   <comment></comment>
+   <testCaseGuid>9e4cd0f4-9b15-4f96-a3ec-b93885f2661c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>6fdb114e-b4ff-4dd8-b52b-0e633a453e63</id>
+      <iterationEntity>
+         <iterationType>RANGE</iterationType>
+         <value>1-1</value>
+      </iterationEntity>
+      <testDataId>Data Files/Testdata/Adactin_TestData</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>6fdb114e-b4ff-4dd8-b52b-0e633a453e63</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Username</value>
+      <variableId>d73a58b8-1cf7-4561-bc02-def1a3c9ba93</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>6fdb114e-b4ff-4dd8-b52b-0e633a453e63</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Password</value>
+      <variableId>12baa223-35f2-4a10-a7de-45b8b03a4ebb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d73a58b8-1cf7-4561-bc02-def1a3c9ba93</id>
+      <masked>false</masked>
+      <name>Username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12baa223-35f2-4a10-a7de-45b8b03a4ebb</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+</TestCaseEntity>
